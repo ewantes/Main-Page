@@ -738,10 +738,10 @@ body {
 }
 @media (min-width: 1500px) {
   .end {
-    right: 20%;
+    right: 17.5%;
   }
   .maincontent {
-    height: 720px;
+    height: 950px;
     background-color: #fff;
   }
   #ddmenu {
