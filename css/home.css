@@ -522,6 +522,7 @@ body {
 .imagemd a {
   float: left;
   height: 100%;
+  width: 100%;
 }
 .phoneback {
   position: relative;
