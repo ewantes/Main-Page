@@ -7123,3 +7123,18 @@ footer .hexagon:after {
 main {
   height: 1900px;
 }
+@media (min-width: 996px) {
+  .bottop-input span {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .bottop-input span {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1700px) {
+  #ddmenu {
+    font-size: 1.4em !important;
+  }
+}
