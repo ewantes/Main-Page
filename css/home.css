@@ -521,7 +521,7 @@ body {
 }
 .imagemd a {
   float: left;
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 .phoneback {
@@ -734,5 +734,10 @@ body {
   }
   .bottom-left-header {
     margin-top: 70px;
+  }
+}
+@media (min-width: 1500px) {
+  .end {
+    right: 17%;
   }
 }
