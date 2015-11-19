@@ -761,11 +761,15 @@ body {
   margin-left: 8px;
   margin-right: 8px;
 }
+.text-two img {
+  width: 100%;
+}
 .text-two a {
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
+  left: 0;
 }
 .text-two a:hover {
   background-color: rgba(23, 69, 108, 0.73);
