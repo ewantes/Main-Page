@@ -542,7 +542,6 @@ body{
 		font-family: "PTSerifBold";
 		font-size: 21px;
 	    position: relative;
-	    top: 23px;
 	    line-height: 24px;
 	}
 	.imagemd{
@@ -688,7 +687,7 @@ body{
 }
 @media (min-width: 992px){
 	.maincontent {
-	    height: 840px;
+	    height: 900px;
 	    background-color: #fff;
 	}
 	.photomain{
@@ -748,7 +747,7 @@ body{
 }
 @media (min-width: 1200px){
 	.maincontent {
-	    height: 720px;
+	    height: 780px;
 	    background-color: #fff;
 	}
 	.photomain{
@@ -815,7 +814,50 @@ body{
 	.end{
 		right: 31.5%;
 	}
+	.maincontent {
+	    height: 1050px;
+	    background-color: #fff;
+	}
 }
 @media (max-width: @screen-md-max) {}
 @media (max-width: @screen-sm-max) {}
 @media (max-width: @screen-xs-max) {}
+
+//начало корисна ынформацыя
+.text-two{
+	.col-md-12{
+		padding:0;
+		margin-left: 8px;
+		margin-right: 8px;
+
+	}
+	a{
+		    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    &:hover{
+    	background-color: rgba(23,69,108,0.73 );
+		background-repeat: no-repeat;
+		background-position: 50%;
+    }
+    
+	}
+	.play:hover{
+    	background-image: url(../img/play.png);
+    }
+    .eye:hover{
+    	background-image: url(../img/watch.png);
+    }
+    .down:hover{
+    	background-image: url(../img/download.png);
+    }
+
+}
+  .span-after-text-two{
+    	span{
+    		padding-top: 20px;
+    	 display: block;	
+    	}
+    }
+//конец корисна ынформацыя
