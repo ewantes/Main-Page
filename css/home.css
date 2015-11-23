@@ -562,6 +562,7 @@ body {
   position: absolute;
   background-color: #6086a7;
   opacity: 0.7;
+  z-index: 20;
 }
 .begin-end p {
   padding-bottom: 37px;
@@ -602,6 +603,10 @@ body {
   position: relative;
   width: 103%;
   border-bottom: 1px solid #dddcc3;
+}
+.mini-title a {
+  text-decoration: none;
+  color: #1c5281;
 }
 .mini-title:first-child {
   margin-top: 94px;
