@@ -14,7 +14,6 @@ body {
   margin-right: 0;
 }
 .wrapper {
-  height: 4270px;
   width: 100%;
 }
 .home-page-wrapper {
@@ -34,9 +33,6 @@ body {
 .right-header-home {
   height: 100%;
   padding: 0;
-}
-.home-page-header {
-  height: 333px;
 }
 .home-page-header .dropdown {
   margin-right: 30%;
@@ -264,8 +260,8 @@ body {
   line-height: 26px;
 }
 .cont-news-last {
-  height: 529px;
-  margin-top: 77px;
+  padding-bottom: 5%;
+  margin-top: 8%;
 }
 .cont-news-last .row {
   height: 100%;
@@ -338,6 +334,9 @@ body {
   background-color: #fff;
   z-index: -1;
 }
+.cont-direct {
+  margin-bottom: 8%;
+}
 .cont-direct .title {
   position: relative;
 }
@@ -358,9 +357,6 @@ body {
   position: absolute;
   right: 11.3%;
   top: 3%;
-}
-.cont-direct .carousel {
-  height: 476px;
 }
 .cont-direct .carousel .row {
   margin: 0;
@@ -462,8 +458,9 @@ body {
   display: none;
 }
 .maincontent {
-  height: 720px;
   background-color: #fff;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 .maincontent .maintext {
   height: 800px;
@@ -630,7 +627,6 @@ body {
 }
 @media (min-width: 992px) {
   .maincontent {
-    height: 900px;
     background-color: #fff;
   }
   .photomain {
@@ -687,7 +683,6 @@ body {
 }
 @media (min-width: 1200px) {
   .maincontent {
-    height: 780px;
     background-color: #fff;
   }
   .photomain {
@@ -748,7 +743,6 @@ body {
     right: 17.5%;
   }
   .maincontent {
-    height: 950px;
     background-color: #fff;
   }
   #ddmenu {
@@ -773,7 +767,6 @@ body {
     right: 31.5%;
   }
   .maincontent {
-    height: 1050px;
     background-color: #fff;
   }
 }
