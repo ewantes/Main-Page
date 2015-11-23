@@ -34,6 +34,9 @@ body {
   height: 100%;
   padding: 0;
 }
+nav {
+  margin-right: 20%;
+}
 .home-page-header .dropdown {
   margin-right: 30%;
 }
