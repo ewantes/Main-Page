@@ -3,7 +3,8 @@ $(document).ready(function() {
   var owl = $("#owl-demo");
  
   owl.owlCarousel({
-      items : 3 , //10 items above 1000px browser width
+      items : 3 ,
+      itemsTablet: [480,1], //10 items above 1000px browser width
       pagination : false
      
   });
@@ -28,7 +29,8 @@ $(document).ready(function() {
   var owl = $("#owl-direct");
  
   owl.owlCarousel({
-      items : 5, //10 items above 1000px browser width
+      items : 5,
+      itemsTablet: [480,1],  //10 items above 1000px browser width
       pagination : false
      
   });

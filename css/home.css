@@ -807,6 +807,11 @@ body {
     width: 63%;
   }
 }
+@media (max-width: 750px) {
+  .customNavigation {
+    position: static !important;
+  }
+}
 .text-two .col-md-12 {
   padding: 0;
   margin-left: 8px;
