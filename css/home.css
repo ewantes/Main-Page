@@ -845,3 +845,11 @@ body {
   padding-top: 20px;
   display: block;
 }
+@media (max-width: 480px) {
+  .maincontent .info {
+    font-size: 26px;
+  }
+  .cont-direct .title h1 {
+    font-size: 26px;
+  }
+}
