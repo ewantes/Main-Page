@@ -47,6 +47,9 @@
 .ui-widget-header{
 	width: 813px;
 }
+.scroll-content{
+	margin-left: 20px;
+}
 /*.scroll-content li{
 	margin: 0;
 }
